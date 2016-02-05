@@ -1,14 +1,26 @@
-layout_spectrum: 1
 color:
   saturation: 0.267536
   brandStrength: 0.4459491
-  lightness: 0.7434369
+  rhythmicContrast: 0.1347103
   brandColors:
     - '#FFFFFF'
     - '#021F1F'
     - '#025CB4'
     - '#77BDBD'
     - '#0DCF5C'
-  rhythmicContrast: 0.1347103
+  lightness: 0.7434369
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+layout_spectrum: 1
 typography_spectrum: 1
 name: Menlow Parker
